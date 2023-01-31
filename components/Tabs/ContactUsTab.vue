@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Contact Us Tab</h2>
+    <h2>Contact Us</h2>
   </div>
 </template>
 

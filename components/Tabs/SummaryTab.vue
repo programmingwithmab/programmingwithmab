@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Summary Tab</h2>
+    <h2>Summary</h2>
   </div>
 </template>
 
