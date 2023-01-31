@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Tools</h2>
-  </div>
+  <UtilsDevelopmentMode tab="ឧបការណ៌ប្រើប្រាស់"/>
 </template>
 
 <script>

@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Contact Us</h2>
-  </div>
+  <UtilsDevelopmentMode tab="ទំនាក់ទំនង"/>
 </template>
 
 <script>

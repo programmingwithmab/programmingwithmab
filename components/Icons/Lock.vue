@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "IconLock",
+  name: "IconsLock",
 };
 </script>
 

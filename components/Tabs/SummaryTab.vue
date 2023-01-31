@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Summary</h2>
-  </div>
+  <UtilsDevelopmentMode/>
 </template>
 
 <script>

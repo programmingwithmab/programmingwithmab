@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Source Code</h2>
-  </div>
+  <UtilsDevelopmentMode tab="ប្រភពកូដ"/>
 </template>
 
 <script>
