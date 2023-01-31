@@ -18,7 +18,7 @@
         </div>
         <div class="w-1/3 bg-white py-3 px-5 overflow-y-scroll">
           <h2 class="text-2xl mb-3 font-bold">
-            កម្រងវីដេអូ <span>៣២ វីដេអូ</span>
+            កម្រងវីដេអូ <span>៣២ វីដេអូ (New)</span>
           </h2>
           <div>
             <ul class="flex flex-col gap-2">
