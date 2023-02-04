@@ -10,7 +10,9 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Koh+Santepheap:wght@100;400;700&family=Montserrat:wght@400;700&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #f1f1f1;
   font-family: "Montserrat", "Koh Santepheap", cursive, serif;

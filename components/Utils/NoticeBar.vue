@@ -5,7 +5,13 @@
         <IconsInfo />
         <div class="flex gap-3">
           <p>យើងមានប្រម៉ូសិនថ្មី!</p>
-          <a href="#" class="underline">ចូលទៅពិនិត្យប្រម៉ូសិន</a>
+          <a
+            href="https://www.facebook.com/photo?fbid=133229719636951&set=a.117680664525190"
+            class="underline"
+            rel="noopener noreferrer"
+            target="_blank"
+            >ចូលទៅពិនិត្យប្រម៉ូសិន</a
+          >
         </div>
       </div>
     </div>
