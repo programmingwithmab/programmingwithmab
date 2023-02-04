@@ -12,7 +12,7 @@
           >
             តើយើងនិងសិក្សាអ្វីខ្លះក្នុងវីដេអូមេរៀននេះ?
           </h2>
-          <article class="prose prose-sm lg:prose-lg">
+          <article class="prose prose-sm lg:prose-lg max-w-none">
             <p>
               សួស្តីអ្នកទាំងអស់គ្នា! យើងខ្ញុំសូមណែនាំវីដេអូសិក្សាមូលដ្ឋានគ្រឹះ
               និងការបង្កើត WordPress Theme! វីដេអូនេះផងដែលមានមាតិកាដូចជា៖
