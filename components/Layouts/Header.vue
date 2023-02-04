@@ -7,13 +7,13 @@
       >
         <div class="w-full lg:w-1/2">
           <div class="space-y-5 mt-5 lg:mt-0">
-            <h1 class="text-3xl font-bold" data-aos-duration="100" data-aos="fade-right">
+            <h1 class="text-3xl font-bold" data-aos-duration="1000" data-aos="fade-right">
               វីដេអូបង្រៀនមូលដ្ឋានគ្រឹះ​ WordPress
             </h1>
-            <p class="text-lg" data-aos="fade-right" data-aos-duration="200">
+            <p class="text-lg" data-aos="fade-right" data-aos-duration="2000">
               តោះរៀនបង្កើតគេហទំព័រជាមួយ WordPress ទាំងអស់គ្នា!
             </p>
-            <div class="mt-5" data-aos="fade-right" data-aos-duration="300">
+            <div class="mt-5" data-aos="fade-right" data-aos-duration="3000">
               <a
                 href="https://forms.gle/5d5LfzNjM61Vb8Xs5"
                 rel="noopener noreferrer"
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="w-full lg:w-1/2">
-          <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="200">
+          <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="2000">
             <iframe
               width="1280"
               height="744"
