@@ -21,7 +21,7 @@
           >
         </li>
       </ul>
-      <p>រក្សាសិទ្ធិ &copy; ២០២៣ - គ្រប់យ៉ាងដោយ Prog. With Mab</p>
+      <p class="text-center lg:text-left">រក្សាសិទ្ធិ &copy; ២០២៣ - គ្រប់យ៉ាងដោយ Prog. With Mab</p>
     </div>
   </footer>
 </template>
