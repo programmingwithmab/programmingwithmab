@@ -8,7 +8,7 @@
       >
         <div class="text-center space-y-3 sm:space-y-0 sm:text-left">
           <h3 class="font-bold text-2xl">{{ pricing.title }}</h3>
-          <p class="text-blue-500 hover:text-white">
+          <p class="text-blue-50០ text-2xl">
             {{ pricing.price }} ដុល្លា
           </p>
         </div>
