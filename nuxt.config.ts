@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   app: {
     head: {
+      htmlAttrs: {
+        lang: "en",
+      },
       title: "Home - Programming With Mab",
       meta: [
         { name: "title", content: "Home - Programming With Mab" },
@@ -77,9 +80,9 @@ export default defineNuxtConfig({
         {
           rel: "mask-icon",
           href: "/safari-pinned-tab.svg",
-          color: "#5bbad5"
-        }
-      ]
+          color: "#5bbad5",
+        },
+      ],
     },
   },
   css: ["~/assets/css/main.css"],

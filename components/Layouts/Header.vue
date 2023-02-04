@@ -18,7 +18,7 @@
                 href="https://forms.gle/5d5LfzNjM61Vb8Xs5"
                 rel="noopener noreferrer"
                 target="_blank"
-                class="bg-blue-500 text-white rounded-lg py-2 px-5 focus:bg-blue-500 focus:ring-1 focus:ring-offset-2"
+                class="bg-blue-500 text-black rounded-lg py-2 px-5 focus:bg-blue-500 focus:ring-1 focus:ring-offset-2"
               >
                 ចុះឈ្មោះឥឡូវ
               </a>
