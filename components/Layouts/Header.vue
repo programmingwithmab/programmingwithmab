@@ -6,7 +6,7 @@
         class="w-full flex flex-col-reverse lg:flex-row justify-center items-center gap-2 py-12"
       >
         <div class="w-full lg:w-1/2">
-          <div class="space-y-5">
+          <div class="space-y-5 mt-5 lg:mt-0">
             <h1 class="text-3xl font-bold">
               វីដេអូបង្រៀនមូលដ្ឋានគ្រឹះ​ WordPress
             </h1>

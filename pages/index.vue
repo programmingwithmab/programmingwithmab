@@ -12,7 +12,7 @@
           >
             តើយើងនិងសិក្សាអ្វីខ្លះក្នុងវីដេអូមេរៀននេះ?
           </h2>
-          <article class="prose prose-slate">
+          <article class="prose prose-sm lg:prose-lg">
             <p>
               សួស្តីអ្នកទាំងអស់គ្នា! យើងខ្ញុំសូមណែនាំវីដេអូសិក្សាមូលដ្ឋានគ្រឹះ
               និងការបង្កើត WordPress Theme! វីដេអូនេះផងដែលមានមាតិកាដូចជា៖
@@ -38,9 +38,9 @@
       </div>
     </div>
     <div class="bg-white" id="pricing">
-      <div class="container mx-auto space-y-8 py-12">
+      <div class="container mx-auto space-y-12 py-24">
         <div class="text-center space-y-5">
-          <h2 class="font-blod text-3xl text-blue-500">
+          <h2 class="font-bold text-2xl text-blue-500">
             តម្លៃលក់មេរៀន
           </h2>
           <div class="w-1/2 mx-auto">

@@ -3,7 +3,7 @@
     <div
       class="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-3 lg:space-y-0"
     >
-      <ul class="flex gap-3">
+      <ul class="flex gap-3 items-center justify-center">
         <li>
           <a
             href="https://fb.com/programmingwithmab"
@@ -12,6 +12,7 @@
             >ហេ្វបុក</a
           >
         </li>
+        <li>&minus;</li>
         <li>
           <a
             href="https://t.me/programmingwithmab"
