@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="bg-white" id="pricing">
-      <div class="container mx-auto space-y-12 py-24">
+      <div class="container mx-auto space-y-12 py-12 lg:py-24">
         <div class="text-center space-y-5">
           <h2 class="font-bold text-2xl text-blue-500">
             តម្លៃលក់មេរៀន
