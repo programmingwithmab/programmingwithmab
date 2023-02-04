@@ -1,19 +1,42 @@
 <template>
-  <LayoutsAnnoucement />
-  <header class="h-[280px] bg-white">
-    <div class="container mx-auto flex items-center h-full">
-      <div class="space-y-5">
-        <h1 class="text-3xl font-bold">វីដេអូបង្រៀនមូលដ្ឋានគ្រឹះ WordPress</h1>
-        <p class="text-lg">រៀនពីរបៀបក្នុងបង្កើតគេហទំព័រជាមួយពួកយើង!</p>
-        <div class="mt-5">
-          <a
-            href="https://forms.gle/5d5LfzNjM61Vb8Xs5"
-            rel="noopener noreferrer"
-            target="_blank"
-            class="bg-gray-800 text-white rounded-lg px-4 py-2 focus:bg-gray-900 focus:ring-1 focus:ring-offset-2"
-          >
-            ចុះឈ្មោះឥឡូវ
-          </a>
+  <UtilsNoticeBar />
+  <header class="bg-white">
+    <div class="container mx-auto flex items-center">
+      <div
+        class="w-full flex flex-col-reverse lg:flex-row justify-center items-center gap-2 py-12"
+      >
+        <div class="w-full lg:w-1/2">
+          <div class="space-y-5">
+            <h1 class="text-3xl font-bold">
+              វីដេអូបង្រៀនមូលដ្ឋានគ្រឹះ​ WordPress
+            </h1>
+            <p class="text-lg">
+              តោះរៀនបង្កើតគេហទំព័រជាមួយ WordPress ទាំងអស់គ្នា!
+            </p>
+            <div class="mt-5">
+              <a
+                href="https://forms.gle/5d5LfzNjM61Vb8Xs5"
+                rel="noopener noreferrer"
+                target="_blank"
+                class="bg-blue-500 text-white rounded-lg py-2 px-5 focus:bg-blue-500 focus:ring-1 focus:ring-offset-2"
+              >
+                ចុះឈ្មោះឥឡូវ
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="aspect-w-16 aspect-h-9">
+            <iframe
+              width="1280"
+              height="744"
+              src="https://www.youtube.com/embed/N7LqaWtMs2I"
+              title="Basic WordPress Theme Development"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
