@@ -8,6 +8,7 @@
 export default {
   name: "Default",
   mounted() {
+    AOS.init();
     var chatbox = document.getElementById("fb-customer-chat");
     chatbox.setAttribute("page_id", "105320392441126");
     chatbox.setAttribute("attribution", "biz_inbox");

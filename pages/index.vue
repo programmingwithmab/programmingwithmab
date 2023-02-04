@@ -4,7 +4,7 @@
   </Head>
   <LayoutsHeader />
   <main class="w-full">
-    <div class="container mx-auto space-y-12">
+    <div class="container mx-auto space-y-12" data-aos="fade-up">
       <div class="bg-white rounded-xl p-4 lg:p-8 my-12">
         <div class="space-y-3">
           <h2
@@ -39,7 +39,7 @@
     </div>
     <div class="bg-white" id="pricing">
       <div class="container mx-auto space-y-12 py-12 lg:py-24">
-        <div class="text-center space-y-5">
+        <div class="text-center space-y-5" data-aos="zoom-in">
           <h2 class="font-bold text-2xl text-blue-500">
             តម្លៃលក់មេរៀន
           </h2>
@@ -49,7 +49,7 @@
             </p>
           </div>
         </div>
-        <UtilsPricingBox />
+        <UtilsPricingBox data-aos="zoom-in" />
       </div>
     </div>
   </main>
