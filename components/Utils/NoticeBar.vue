@@ -15,7 +15,7 @@
             >
           </p>
           <span
-            class="cursor-pointer"
+            class="cursor-pointer px-2 rounded-full text-blue-800 bg-white"
             @click="
               () => {
                 show = false;

@@ -5,7 +5,7 @@
   <LayoutsHeader />
   <main class="w-full">
     <div class="container mx-auto space-y-12">
-      <div class="bg-white rounded-xl p-8 my-12">
+      <div class="bg-white rounded-xl p-4 lg:p-8 my-12">
         <div class="space-y-3">
           <h2
             class="font-bold text-2xl pl-3 border-t-0 border-r-0 border-b-0 border-[4px] border-blue-500"
@@ -17,7 +17,7 @@
               សួស្តីអ្នកទាំងអស់គ្នា! យើងខ្ញុំសូមណែនាំវីដេអូសិក្សាមូលដ្ឋានគ្រឹះ
               និងការបង្កើត WordPress Theme! វីដេអូនេះផងដែលមានមាតិកាដូចជា៖
             </p>
-            <ul class="ml-5">
+            <ul class="ml-0 lg:ml-5">
               <li>សិក្សាអំពី Tools ដែលត្រូវប្រើប្រាស់ជាមួយ WordPress</li>
               <li>សិក្សាមុខងារសំខាន់ៗដែលមានក្នុង WordPress</li>
               <li>បង្កើត WordPress Theme</li>
@@ -43,7 +43,7 @@
           <h2 class="font-bold text-2xl text-blue-500">
             តម្លៃលក់មេរៀន
           </h2>
-          <div class="w-1/2 mx-auto">
+          <div class="w-3/4 lg:w-1/2 mx-auto">
             <p>
               យើងសូមជម្រាបជូនបងប្អួនជាដំណឹងថាយើងបែងចែកតម្លៃលក់មេរៀនជាពីរប្រភេទ​<br />សូមពិនិត្យមើលប្រភេទតម្លៃដែលសមស្របសម្រាប់បងប្អួន!
             </p>
