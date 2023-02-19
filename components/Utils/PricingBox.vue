@@ -11,16 +11,6 @@ export default {
   data() {
     return {
       pricings: [
-        /*{
-          title: "សម្រាប់និស្សិត",
-          price: "១២",
-          features: [
-            { label: "32 Videos Provided", check: true },
-            { label: "Source Code Provided", check: true },
-            { label: "One Time Purchase", check: true },
-            { label: "Support", check: true },
-          ],
-        },*/
         {
           title: "សម្រាប់បុគ្គលទូទៅ",
           price: "១២",
