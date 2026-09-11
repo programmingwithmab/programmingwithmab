@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  # Allows a manual re-deploy from the Actions tab without pushing a commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let an in-flight deploy finish rather than cancelling it, so Pages is never
+# left serving a half-published build.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # `npm ci` installs exactly what package-lock.json pins and fails if the
+      # lockfile is out of sync with package.json.
+      - run: npm ci
+
+      # `generate` prerenders to static HTML in .output/public.
+      # app.baseURL in nuxt.config.ts must match the Pages URL or every asset
+      # 404s, so assert it rather than finding out in production.
+      - run: npm run generate
+
+      - name: Verify the build output
+        run: |
+          test -f .output/public/index.html || { echo "::error::no index.html generated"; exit 1; }
+          test -d .output/public/_nuxt     || { echo "::error::no _nuxt assets generated"; exit 1; }
+          grep -q '/programmingwithmab/_nuxt/' .output/public/index.html || {
+            echo "::error::index.html does not reference /programmingwithmab/_nuxt/ - app.baseURL is wrong for this Pages URL"
+            exit 1
+          }
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

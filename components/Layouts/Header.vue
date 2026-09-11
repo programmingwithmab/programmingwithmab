@@ -32,6 +32,8 @@
               height="744"
               src="https://www.youtube.com/embed/N7LqaWtMs2I"
               title="Basic WordPress Theme Development"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen

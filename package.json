@@ -5,21 +5,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/line-clamp": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.13",
-    "nuxt": "^3.1.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0",
-    "sass": "^1.57.1",
-    "vuex": "^4.1.0"
+    "@tailwindcss/typography": "^0.5.20",
+    "autoprefixer": "^10.5.6",
+    "nuxt": "^3.21.11",
+    "postcss": "^8.5.28",
+    "sass": "^1.104.0",
+    "tailwindcss": "^3.4.19"
   }
 }

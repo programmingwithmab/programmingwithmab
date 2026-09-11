@@ -3,7 +3,7 @@
     href="https://forms.gle/5d5LfzNjM61Vb8Xs5"
     rel="noopener noreferrer"
     target="_blank"
-    class="rounded-xl py-5 px-8 hover:bg-blue-200 hover:text-black border hover:border-blue-800 cursor-pointer"
+    class="rounded-xl py-5 px-8 hover:bg-blue-200 hover:text-black border hover:border-blue-800 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
   >
     <div class="space-y-5">
       <div
@@ -16,11 +16,16 @@
           </p>
         </div>
         <div>
-          <button
-            class="bg-blue-500 text-black rounded-lg py-2 px-5 focus:bg-blue-500 focus:ring-1 focus:ring-offset-2"
+          <!--
+            Rendered as a <span>, not a <button>: this whole card is already an
+            <a>, and HTML forbids nesting interactive content. The surrounding
+            anchor is the single focusable target.
+          -->
+          <span
+            class="inline-block bg-blue-500 text-black rounded-lg py-2 px-5"
           >
             ចុះឈ្មោះឥឡូវ
-          </button>
+          </span>
         </div>
       </div>
     </div>
